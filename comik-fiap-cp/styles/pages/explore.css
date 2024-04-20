@@ -1,0 +1,30 @@
+section {
+  display: flex;
+  flex: 1;
+  gap: 24px;
+  flex-direction: column;
+  overflow: scroll;
+  padding: 32px 0 24px 24px;
+}
+
+section ul.list-categories {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+  min-height: 16vh;
+  padding-right: 24px;
+}
+
+section ul.list-categories li .list-item-bottom {
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+
+section ul#list-items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(auto-fill, 32vh);
+  gap: 16px;
+  padding-right: 24px;
+}

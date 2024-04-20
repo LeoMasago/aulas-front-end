@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --surface: #091B20;
+  --on-surface: #fff;
+  --on-surface-opaque: #ffffff50;
+  --blue: #40A5DE;
+  --blue-container: #2698da;
+  --yellow: #FDDB0C;
+  --orange: #F5333B;
+  --red: #CF1D00;
+}
+
+body {
+  font-family: 'Comic Neue';
+  background-color: var(--surface);
+  color: var(--on-surface);
+
+  display: flex;
+  flex: 1;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--on-surface);
+}
+
+button, input, textarea {
+  outline: 0;
+  border: 0;
+  color: var(--on-surface);
+  font-family: 'Comic Neue';
+  resize: none;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Comic Neue';
+}
+
+.font-comic {
+  font-family: 'Comic Neue';
+}
+
+.font-bangers {
+  font-family: 'Bangers';
+  letter-spacing: 0.8px;
+}
+
+.text-on-surface {
+  color: var(--surface);
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.size-span-2 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+}

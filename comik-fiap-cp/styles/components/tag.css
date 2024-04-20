@@ -1,0 +1,10 @@
+.tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--blue);
+  font-weight: 800;
+}

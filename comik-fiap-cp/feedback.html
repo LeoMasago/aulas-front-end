@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Comik</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="stylesheet" href="styles/root.css" />
+    <link rel="stylesheet" href="styles/components/nav.css" />
+    <link rel="stylesheet" href="styles/components/btn.css" />
+    <link rel="stylesheet" href="styles/components/text-field.css" />
+    <link rel="stylesheet" href="styles/pages/feedback.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-top">
+        <h1 class="font-bangers">
+          <span>C</span>
+          <span>o</span>
+          <span>m</span>
+          <span>m</span>
+          <span>i</span>
+          <span>k</span>
+        </h1>
+
+        <ul>
+          <li>
+            <a typ class="btn btn-secondary" href="/">
+              <span class="material-symbols-outlined">home</span>
+
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-secondary" href="/explore.html">
+              <span class="material-symbols-outlined">search</span>
+
+              Explorar
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-primary" href="/feedback.html">
+              <span class="material-symbols-outlined">edit_note</span>
+
+              Crítica
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-bottom">
+        <button type="button" class="btn-outline">seja premium</button>
+
+        <div class="nav-bottom-user">
+          <img src="" alt="Imagem do usuário ..." />
+          <span>Nome</span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="no-scroll">
+      <h2>Escreva sua crítica</h2>
+
+      <form action="#" method="POST">
+        <input name="title" type="text" placeholder="Titulo da Crítica">
+        <textarea
+          name="description"
+          type="text"
+          placeholder="Descreva sua Crítica"
+        ></textarea>
+
+        <button type="submit" class="btn btn-primary">
+          ENVIAR
+        </button>
+      </form>
+    </section>
+  </body>
+</html>

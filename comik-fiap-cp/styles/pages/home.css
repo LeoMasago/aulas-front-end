@@ -1,0 +1,94 @@
+section {
+  display: flex;
+  flex: 1;
+  gap: 16px;
+  flex-direction: column;
+  overflow-y: hidden;
+
+  padding: 32px 0 24px 24px;
+  gap: 24px;
+}
+
+section .section-top {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  height: 56vh;
+}
+
+section .section-top main {
+  position: relative;
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+  padding: 24px;
+  height: 100%;
+}
+
+section .section-top main img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: var(--on-surface);
+}
+
+section .section-top main div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+section .section-top main div h2 {
+  font-size: 36px;
+}
+
+section .section-top main div .btn {
+  z-index: 10;
+}
+
+section .section-top #realtime-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 24vw;
+  min-width: 256px;
+}
+section .section-top #realtime-chat ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: scroll;
+}
+section .section-top #realtime-chat ul .chat-message {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+section .section-top #realtime-chat ul .chat-message span {
+  font-weight: 800;
+}
+section .section-top #realtime-chat ul .chat-message img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--on-surface-opaque);
+}
+
+section > ul {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  gap: 16px;
+  padding-right: 24px;
+}
+

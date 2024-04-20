@@ -1,0 +1,44 @@
+*{
+/* resetar as margens do site */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #066f93;
+}
+.container{
+    max-width:1000px;
+    background-color: #e0f7ff;
+    margin: 0 auto; /* para centralizar */
+    padding: 20px;
+}
+nav{
+   padding: 0px 0 10px 0px;   /*top right bottom left */
+}
+nav a{  /* modificar o 'a' dentro do nav */
+    margin-right: 15px;
+    text-decoration: none; /*tirar linha abaixo do link*/
+    color: #0077bb;
+}
+nav a:hover{    /*modificar link ao passar mouse em cima*/
+    text-decoration: underline;
+    color: #000000;
+}
+.image-text-wrapper{
+    display: flex; /*Alinhar texto e imagem um ao lado do outro*/
+    gap: 20px;  /*espaçamento entre colunas(entre o texto e a imagem)*/
+    padding-top: 20px; /*margem interna*/
+}
+p{
+    text-align: justify;
+    color: #03202a;
+}
+figcaption{
+    color: #03202a;
+    font-size: 10px;
+}
+h1{
+    color: #03202a;
+}

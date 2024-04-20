@@ -1,0 +1,10 @@
+input, textarea {
+  background-color: var(--surface);
+  padding: 16px;
+  border: 1px solid var(--on-surface);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--on-surface);
+  opacity: 0.6;
+}

@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+
+  transition: 200ms opacity;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+nav div h2 {
+  font-weight: 500;
+  letter-spacing: 1px !important;
+}
+
+nav div span {
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+}
+
+
+section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+}
+
+section .container .control-btn {
+  padding: 8px;
+  background-color: var(--on-surface);
+  opacity: 0.6;
+  border-radius: 50%;
+  color: var(--surface);
+  transition: 200ms opacity;
+}
+section .container .control-btn:hover {
+  opacity: 1;
+}
+
+section .container .container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+
+  max-height: 701.6px;
+}
+
+section .container .container-main main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+  gap: 16px;
+}
+
+section .container .container-main main .page {
+  display: flex;
+  flex: 1;
+  
+  aspect-ratio: 1 / 1.41;
+  max-height: 701.6px;
+  max-width: 496px;
+  background-color: var(--on-surface-opaque);
+}
