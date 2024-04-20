@@ -1,0 +1,89 @@
+#grad{
+    width: 300px;
+    height: 100px;
+    /* background-image: linear-gradient(45deg, red, yellow, blue, yellow); */
+    background-image: radial-gradient(red, yellow);
+}
+
+    /* 
+    unidades de medidas;
+    deg-- grau
+    grad-- grado
+    rad-- radiano
+     */
+.vazio{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}     
+.transform{
+    width: 100px;
+    height: 100px;
+    position: absolute; /*elementos ficam fixos, não se movimentam */
+    left: 200px;
+    top: 150px;
+    background-color: red;
+    /* transform: translate(10px, 20px); */
+    /* transform: rotate(30deg); rotaciona*/
+    /* transform: scale(2, 1); */
+    /* transform: skew(200deg, 150deg); distorção de X e y */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+}   
+
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* tempo de transição  */
+    /* transition: height 2s, width 2s; */
+    transition: all 2s;
+}
+/* transição ao passar com o mouse em cima */
+.transition:hover{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: blue;
+}
+input{
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+input:focus{
+    width: 200px;
+   font-size: 24px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: all 0.3s ease;
+}
+/* estilizando o button */
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    /* remove as bordas(deixa transparente) */
+    border: none;
+    /* arredonda as bordas */
+    border-radius: 5px;
+    /* modifica o cursor ao passar em cima */
+    cursor: pointer;
+    /* define o tempo e o tipo da transição */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
