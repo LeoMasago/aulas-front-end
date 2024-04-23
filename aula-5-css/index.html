@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Flexbox</title>
 </head>
 <body>
-    
+    <!-- criação de tabela: <table>-cria tabela, <tr>-linha da tabela, <td>-coluna/célula -->
+    <div class="caixa-cinza">
+        <div class="caixa-direction">
+            <div class="numero circulo">i</div>
+        </div>
+        <div class="caixa-direction">
+            <div class="numero circulo">2</div>
+        </div>
+        <div class="caixa-direction">
+            <div class="numero circulo">3</div>
+        </div>
+        <div class="caixa-direction">
+            <div class="numero circulo">4</div>
+        </div>
+        <div class="caixa-direction">
+            <div class="numero circulo">5</div>
+        </div>
+    </div>
+
+    <!-- div.caixa-cinza>(div.caixa-direction>div.numero.circulo{$})*5 -->
+
+    <div class="caixa-branca">
+        <div class="caixa-wrap">1</div>
+        <div class="caixa-wrap">2</div>
+        <div class="caixa-wrap">3</div>
+        <div class="caixa-wrap">4</div>
+        <div class="caixa-wrap">5</div>
+    </div>
+    <!-- div.caixa-branca>div.caixa-wrap{$}*5 -->
+    <br><br>
+    <h2>Justify-Content (linha)</h2>
+    <div class="caixa-azul">
+        <div class="caixa-justify"></div>
+        <div class="caixa-justify"></div>
+        <div class="caixa-justify"></div>
+    </div>
+    <!-- div.caixa-azul>div.caixa-justify*3 -->
 </body>
 </html>
