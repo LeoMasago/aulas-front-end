@@ -51,3 +51,22 @@
     margin: 10px;
     position: relative;
 }
+
+
+
+.caixa-azul{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    /* alinhamento dos elementos*/
+    justify-content: center; 
+}
+.caixa-justify {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    margin: 5px;
+    border-radius: 10px;
+}
